@@ -94,7 +94,7 @@
                 <header>
                     <h2>Map</h2>
                 </header>
-                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                <p>The contribution for the first week of the challenge is a map that simply shows the regions of Italy and it's a first attempt in using d3.js for map visualisation with basic interactive functionalities. <br> Data: ISTAT</p>
                 <br>
             </article>
 
@@ -106,7 +106,10 @@
                     <li><a href="https://techblog.assignar.com/how-to-create-map-visualisation-using-d3js/"
                             target="_blank"><b><i>How to create Map Visualisation using D3.js</i></b></a> by <a
                             href="https://github.com/nikkisharma536" target="_blank">Nikita Sharma</a></li>
-                    <li><a href="https://soshace.com/mapping-the-world-creating-beautiful-maps-and-populating-them-with-data-using-d3-js/?hmsr=joyk.com&utm_source=joyk.com&utm_medium=referral" target="_blank"><b><i>Mapping the World: Creating Beautiful Maps and Populating them with Data using D3.js </i></b></a> by <a href="https://soshace.com/author/bradstarart/" target="_blank">Bradley Kofi</a>
+                    <li><a href="https://soshace.com/mapping-the-world-creating-beautiful-maps-and-populating-them-with-data-using-d3-js/?hmsr=joyk.com&utm_source=joyk.com&utm_medium=referral"
+                            target="_blank"><b><i>Mapping the World: Creating Beautiful Maps and Populating them with
+                                    Data using D3.js </i></b></a> by <a href="https://soshace.com/author/bradstarart/"
+                            target="_blank">Bradley Kofi</a>
                 </ul>
             </nav>
             <p id="copy">Copyright 2023 - Federica Gaspari</p>
@@ -128,15 +131,10 @@
                 .data(bb.features)
                 .join('path')
                 .attr('d', geoGenerator)
-                .on("mouseover", function (_, d) {
-                    tooltip
-                        .html("name : " + d.type);
-                })
-                .attr('class', 'region');
+                .attr('class', 'region')
             //.attr('fill', '#088')
             //.attr('stroke', '#000')
             //.style("fill", function(d) {return color(d.Shape_Area)});
-
         });
     </script>
 

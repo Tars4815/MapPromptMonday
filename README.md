@@ -11,7 +11,7 @@ The intent of Map Prompt Monday is to create a welcoming, supportive, and though
 
 | Start Date    | End Date   | Prompt     | Map |
 | ---           | ---        | ---        | --- |
-| 2023-01-02    | 2023-01-08 | [Region(s)](https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-01-02)| [...] |
+| 2023-01-02    | 2023-01-08 | [Region(s)](https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-01-02)| [Here](https://tars4815.github.io/MapPromptMonday/maps/012023/script.html) |
 | 2023-01-09    | 2023-01-15 | [Heat Map or Hot Spot Map](https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-01-09)| [...] |
 | 2023-01-16    | 2023-01-22 | [Colorblind Friendly](https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-01-16)| [...] |
 | 2023-01-23    | 2023-01-29 | [Film/TV](https://github.com/MapPromptMonday/MapPromptMonday/tree/main/Prompts/2023/2023-01-23)| [...] |
